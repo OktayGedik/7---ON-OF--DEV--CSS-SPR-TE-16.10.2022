@@ -1,0 +1,58 @@
+body {
+  width: 755px;
+  margin: 60px auto;
+}
+.toggle {
+  width: 225px;
+  height: 92px;
+  position: relative;
+  display: inline-block;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+label {
+  background: url(../images/toggle.webp);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 50px;
+}
+input {
+  display: none;
+}
+.one {
+  background-position: -107px -151px;
+}
+input[name="one"]:checked + label {
+  background-position: -107px -267px;
+}
+.two {
+  background-position: -107px -392px;
+}
+input[name="two"]:checked + label {
+  background-position: -107px -508px;
+}
+.three {
+  background-position: -387px -151px;
+}
+input[name="three"]:checked + label {
+  background-position: -387px -267px;
+}
+.four {
+  background-position: -387px -392px;
+}
+input[name="four"]:checked + label {
+  background-position: -387px -508px;
+}
+.five {
+  background-position: -667px -151px;
+}
+input[name="five"]:checked + label {
+  background-position: -667px -267px;
+}
+.six {
+  background-position: -667px -392px;
+}
+input[name="six"]:checked + label {
+  background-position: -667px -508px;
+}
